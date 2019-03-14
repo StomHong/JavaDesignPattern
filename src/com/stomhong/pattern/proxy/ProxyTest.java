@@ -1,7 +1,7 @@
 package com.stomhong.pattern.proxy;
 
 /**
- * 测试类
+ * 代理模式测试类
  */
 public class ProxyTest {
 

@@ -1,6 +1,9 @@
 package com.stomhong.pattern.observer;
 
-public interface Observer<T extends Oberserable>{
+/**
+ * 观察者抽象
+ */
+public interface Observer<T extends Observable>{
 
  void update(T t);
 

@@ -1,28 +1,29 @@
 package com.stomhong.pattern.observer;
 
+/**
+ * 观察者模式
+ */
 public class TestObserver {
 
     public static void main(String[] args){
-        //创建广播员：
-        Broadcast broadcast = new Broadcast();
+        //创建被观察者对象
+        ObservableImpl observable = new ObservableImpl();
 
-        //创建观察者-->收音机
-        Redio radio1 = new Redio();
-        Redio radio2 = new Redio();
-        Redio radio3 = new Redio();
+        //创建观察者
+        ObserverImpl observer1 = new ObserverImpl("observer1");
+        ObserverImpl observer2 = new ObserverImpl("observer2");
+        ObserverImpl observer3 = new ObserverImpl("observer3");
 
         //注册建立联系
-        broadcast.register(radio1);
-        broadcast.register(radio2);
-        broadcast.register(radio3);
+        observable.register(observer1);
+        observable.register(observer2);
+        observable.register(observer3);
 
-        //广播开始广播
-        broadcast.sendMessage("广播声音--->:123456");
+        observable.sendMessage("收到消息");
+        //取消注册
+        observable.unregister(observer2);
 
-        //接收声音
-        System.out.println("收音机radio1接收到："+radio1.getMsg());
-        System.out.println("收音机radio2接收到："+radio2.getMsg());
-        System.out.println("收音机radio3接收到："+radio3.getMsg());
+        observable.sendMessage("收到消息");
     }
 
 }

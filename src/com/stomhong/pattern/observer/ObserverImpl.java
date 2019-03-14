@@ -1,28 +1,18 @@
 package com.stomhong.pattern.observer;
 
-import java.util.ArrayList;
-import java.util.List;
+/**
+ * 具体观察者
+ */
+public class ObserverImpl implements Observer<ObservableImpl>{
 
-public class ObserverImpl implements Oberserable{
+    private String name;
 
-    private List<Observer> mList = new ArrayList<>();
-
-    @Override
-    public void register(Observer o) {
-        mList.add(o);
+    public ObserverImpl(String name) {
+        this.name = name;
     }
 
     @Override
-    public void unregister(Observer o) {
-        mList.remove(o);
+    public void update(ObservableImpl observable) {
+        System.out.println(this.name + ": "+ observable.getMessage());
     }
-
-    @Override
-    public void notifyUpdate() {
-        for (Observer observer : mList){
-            observer.update(this);
-        }
-    }
-
-
 }

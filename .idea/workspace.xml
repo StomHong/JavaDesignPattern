@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a789ab-348e-497b-a3e7-3a21ada713b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Broadcast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Redio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/AsusComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/FushikangComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/HpComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/LenovoComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/factory/TestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObservableImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Broadcast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Redio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,27 +55,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="172629532">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="35" />
+          <entry key="java" value="673" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="673" />
+          <entry key="PLAIN_TEXT" value="35" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/BusinessBarImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/ComputerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/BusinessFooImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -75,88 +102,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/DynamicBusinessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="350">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/FushikangComputerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/TestFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusiness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusinessBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/LenovoComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="75">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Redio.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/HpComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
               <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Broadcast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/AsusComputer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -196,13 +227,25 @@
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/RectangleShape.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Shape.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TriangleShape.java" />
-        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/User.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Broadcast.java" />
-        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Redio.java" />
-        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java" />
         <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observable.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObservableImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/CreateFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/ComputerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/FushikangComputerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/TestFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/Computer.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/HpComputer.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/LenovoComputer.java" />
+        <option value="$PROJECT_DIR$/src/com/stomhong/pattern/factory/AsusComputer.java" />
       </list>
     </option>
   </component>
@@ -217,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,33 +295,14 @@
               <item name="stomhong" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="stomhong" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="stomhong" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="last_opened_file_path" value="D:/" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -299,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestObserver">
+  <component name="RunManager" selected="Application.TestFactory">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -361,6 +386,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stomhong.pattern.factory.TestFactory" />
+      <module name="JavaDesignPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stomhong.pattern.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stomhong.pattern.observer.TestObserver" />
       <module name="JavaDesignPattern" />
@@ -393,9 +432,11 @@
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.DynamicBusinessTest" />
       <item itemvalue="Application.TestObserver" />
+      <item itemvalue="Application.TestFactory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFactory" />
         <item itemvalue="Application.TestObserver" />
         <item itemvalue="Application.DynamicBusinessTest" />
         <item itemvalue="Application.ProxyTest" />
@@ -419,7 +460,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16069546" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,8 +468,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21962096" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2787068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +477,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.1761427" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -479,9 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusiness.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusinessFoo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -501,13 +539,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusinessBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/RectangleShape.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/TriangleShape.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Shape.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/BusinessBarImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -526,97 +560,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/RectangleShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/TriangleShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/DynamicBusinessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Oberserable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Redio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/JavaDesignPattern.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Broadcast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObservableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/ObserverImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="125">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/observer/TestObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="50">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/TestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/AbstractBusinessBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/proxy/dynamic/DynamicBusinessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/ComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/FushikangComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/LenovoComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/HpComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stomhong/pattern/factory/AsusComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
